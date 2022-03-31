@@ -1,0 +1,17 @@
+.footer{
+    padding: 100px 10% 50px;
+    text-align: center;
+}
+
+.footer__icons{
+    background-color:white ;
+    border-radius: 5px;
+    color: var(--colorCeleste);
+    font-size: 2em;
+    width: 38px;
+    margin: 0 auto 10px
+}
+
+.copyr{
+    margin:0 0 20px 20px;
+}
