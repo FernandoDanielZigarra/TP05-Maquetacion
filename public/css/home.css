@@ -7,25 +7,56 @@
     font-size: var(--titular);
 }
 
-.detalle p{
+.home main section article .detalle p{
     font-size: var(--precios);
 }
 
-.detalle span{
+.home main section article .detalle span{
     font-size: var(--descuentosYDescripciones);
     color: var(--colorVerde);
 }
 
+.home main section article .detalle h4{
+    font-size: var(--precios);
+    color: var(--colorGrisOscuro);
+    display: none;
+}
+
 .home main section{
     width: 90%;
-    margin: 0 auto;
+    margin: 0px auto;
+    padding: 20px 0;;
 }
 
 .home main section article{
+    background-color: white;
     margin: 10px 0;
 }
 
-.detalle{
+.home main section article .detalle{
     padding: 0 15px;
-    border-top: 1px solid var(--colorGrisClaro);
+    border: 1px solid var(--colorGrisClaro);
 }
+
+.home main section article .detalle .camion{
+    color: var(--colorVerde);
+    padding: 20px;
+    border: 1px solid var(--colorVerde);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    font-size: 20px;
+}
+
+@media (min-width:361px){
+    .home main section article{
+        box-shadow: 0 0 10px rgb(100 , 100 ,100);
+    }
+    .home main section article .detalle h4{
+        display: block;
+    }
+}
+
+/*@media (min-width:769px){
+  
+}*/

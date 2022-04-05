@@ -25,3 +25,20 @@ header .header__burger{
   border-radius: 8px;
   text-align: center;
 }
+
+header .header__menu{
+  display: none;
+}
+
+@media (min-width:361px){
+  header .header__burger{
+    display: none;
+  }
+  header .header__menu{
+    display: block;
+  }
+}
+
+/*@media (min-width:769px){
+
+}*/
